@@ -1,2 +1,96 @@
 # Telecom-Customers-Churn-Dashboard
 Churn Analysis of a Telecom Customers with over 1 million rows of  big data !! . A real world  Business case  to identify churn drivers, prioritize high-risk customers, and reduce avoidable customer losses while protecting profitability.
+The two dashboard PDFs show different levels of customer churn. The  Telecom_churn_big1.pdf as Dashboard 1 and High_risk_Customers_dashboard.pdf as Dashboard 2.
+The Dashboard 1 is the main Interactive dashboard and the Dashboard 2 is the view of the main dashboard simply by selecting the High Risk Customer option which shows the KPIs and parameters of Customers which are at High Risk of Churning.
+1. Executive summary
+Customer churn is a significant business challenge for telecommunications companies. Customers may discontinue their services because of high pricing, poor network quality, unsatisfactory customer service, billing issues, competitive offers, or better alternatives in the market.
+
+Acquiring new customers often requires marketing expenditure, promotional discounts, and sales effort. Consequently, retaining existing customers can be an important lever for improving profitability and revenue stability.
+
+This project proposes a data-driven churn analysis solution that examines customer demographics, service subscriptions, contract types, billing patterns, tenure, customer support interactions, and churn history.
+
+Using Microsoft Power BI & DAX Queries, the company can identify high-risk customer segments, understand the major reasons for churn, monitor retention performance, and develop targeted retention strategies.
+
+The expected outcome is a measurable improvement in customer retention through better decision-making, proactive customer engagement, and more efficient allocation of retention budgets.
+
+2. Business problem statement
+The telecom company is experiencing customer cancellations and wants to understand why customers leave, which customers are most likely to churn, and what actions can prevent future losses.
+
+Currently, management may have limited visibility into:
+- The customer segments with the highest churn rates.
+- The services, contracts, and payment methods associated with customer attrition.
+- Whether monthly charges, tenure, or service quality influence churn.
+- The revenue at risk from customers who may leave.
+- Which retention campaigns are effective and financially worthwhile.
+Without a consolidated view of customer behavior, retention teams may rely on broad discounts or reactive interventions rather than targeted, evidence-based actions.
+
+Business question: How can the telecom company use customer data to identify churn drivers, prioritize high-risk customers, and reduce avoidable customer losses while protecting profitability?
+
+3. Business objectives
+The project addresses the following objectives:
+Customer churn identification : Calculate the overall churn rate and identify customer groups with unusually high attrition.
+Churn driver analysis: Determine the relationship between churn and tenure, contract type, monthly charges, payment method, and subscribed services.
+Customer retention strategy : Recommend targeted retention campaigns based on customer risk, revenue contribution, and business value.
+Management reporting : Build an interactive Power BI dashboard to monitor churn trends, customer segments, and retention KPIs.
+
+4. Project scope :
+
+The analysis will cover the following areas.
+
+Analysis area		      	Key questions
+
+Customer profile	      Which customer groups have higher churn?
+Tenure			            Are new customers more likely to leave?
+Contract type		        Do monthly contracts have higher churn than long-term contracts?
+Pricing and billing    	Are higher charges associated with greater attrition?
+Service subscriptions  	Which services are associated with lower or higher churn?
+Payment behavior	      Does churn differ by payment method or billing pattern?
+Revenue exposure      	How much recurring revenue is associated with churned customers?
+Retention performance	  Which customer segments should receive retention offers?
+
+5. Key performance indicators (KPIs) :
+
+The following metrics will help management measure the scale of the problem and evaluate improvement:
+    KPI						                           Definition
+Total customers				              Number of distinct customers in the analysis population
+Churned customers		    	          Number of customers who discontinued service during the defined period
+Churn rate				                  Churned customers ÷ eligible customers × 100
+Retention rate			    	          Customers retained ÷ eligible customers × 100
+Monthly recurring revenue at risk	--Recurring revenue associated with customers identified as at risk
+Average revenue per user (ARPU)		  Revenue ÷ average active customer count for the same period
+Average customer tenure(in Months)	Average duration of the customer relationship (in Months)
+Total Revenue				                Total Year to date revenue of Company
+Churn Avg.Montly Charges		        Avg.Monthly charges of Churned Customers
+Avg.Tenure(in Months)			          Avg Tenure of Churned & Non Churned Customers (in Months)
+
+6. Analytical approach process :
+
+Phase 1 — Data collection and validation
+Gather customer, contract, billing, service, support, and churn data. Validate customer IDs, missing values, duplicates, data types, and the definition of churn.
+
+Phase 2 — Data preparation using POWERBI only to Clean and transform data, create analytical features, calculate customer-level metrics, and prepare a reliable dataset for reporting.
+
+Phase 3 — Exploratory analysis
+Compare churn across customer segments, contracts, services, charges, tenure bands, and payment methods. Identify patterns and potential drivers.
+
+Phase 4 — Power BI dashboard development
+Build interactive management dashboards with KPI cards, churn trends, segment comparisons, drill-downs, and revenue exposure.
+
+Phase 5 — Recommendations and action planning
+Prioritize retention opportunities, propose targeted interventions, and establish a method for measuring incremental retention and financial impact.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
