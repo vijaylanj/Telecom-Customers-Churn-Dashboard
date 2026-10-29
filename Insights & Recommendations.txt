@@ -1,0 +1,111 @@
+1. Executive dashboard insights
+
+The two dashboard PDFs show different levels of customer churn. The  Telecom_churn_big1.pdf as Dashboard 1 and High_risk_Customers_dashboard.pdf as Dashboard 2.
+The Dashboard 1 is the main Interactive dashboard and the Dashboard 2 is the view of the main dashboard simply by selecting the High Risk Customer option which shows the KPIs and parameters of Customers which are at High Risk of Churning.
+
+Dashboard 1 — Telecom_churn_big1.pdf
+
+Total customers                Churn rate
+ 1M                               27%
+
+Churned customers              Churn MRR loss
+267K				   $19.86M
+
+
+
+Dashboard 2 — High_risk_Customers_dashboard.pdf
+
+Total customers                  Churn rate
+202K				     55%
+
+
+Churned customers		Churn MRR loss
+112K				    $7.12M
+
+
+
+Insight 1: Customer churn is a significant business problem
+Dashboard 1 reports a churn rate of 27%, with 267K churned customers out of approximately 1 million customers.
+
+This indicates that more than one in four customers in the displayed population has churned. The reported MRR loss of $19.86M highlights the potential financial significance of customer attrition.
+
+Dashboard 2 reports an even higher churn rate of 55%, with 112K churned customers out of 202K.
+
+Business implication: Customer retention should be a management priority. Focus of retention should be the Customers at high risk of churning.
+ 
+Insight 2: Monthly contracts are the main churn segment
+The contract visual in Dashboard 1 shows approximately 240K churned customers on month-to-month contracts, compared with around 20K on one-year contracts and 10K on two-year contracts.
+
+Dashboard 2 also shows approximately 110K churned customers on month-to-month contracts.
+
+Business implication: Month-to-month customers appear to be the largest churn segment by customer count. The company should investigate whether these customers are more sensitive to pricing, have fewer switching barriers, or experience lower satisfaction.
+
+Recommended action: Offer suitable longer-term plans, loyalty benefits, and proactive service reviews. Evaluate the impact through a retention campaign rather than assuming that a longer contract will automatically prevent churn.
+
+Insight 3: Early-tenure customers need special attention
+Dashboard 1 shows churn rates by tenure band of approximately 53%, 36%, 29%, 22%, and 19% across the displayed bands, with the shortest-tenure group showing the highest churn rate.
+
+Dashboard 2 similarly shows a high churn rate of approximately 55% in the shortest-tenure band, followed by lower rates in longer-tenure groups.
+
+Business implication: The dashboards suggest that churn risk is concentrated among newer customers and generally declines as tenure increases.
+
+Recommended action: Establish an early-life retention program that includes onboarding support, first-bill explanations, service-quality checks, and proactive customer feedback collection.
+
+These patterns are consistent with the business objective of identifying churn-prone customer segments in your accompanying document. Business objectives.txt
+
+Insight 4: Fiber-optic customers account for the largest churn volume
+The service-type visual shows approximately 185K fiber-optic customers and 66K DSL customers in Dashboard 1. In Dashboard 2, the corresponding figures appear to be approximately 66K and 35K.
+
+Business implication: Fiber-optic customers represent the largest displayed churn segment by count. However, this does not establish that fiber-optic customers have the highest churn rate, because the total number of customers using each service is not shown alongside these figures.
+
+Recommended action:
+
+- Investigate customer complaints, network performance, pricing, and service expectations.
+- Prioritize service improvements based on churn rate and revenue exposure, rather than customer count alone.
+
+Insight 5: Churned customers have higher average monthly charges
+The average monthly charges visual reports the following:
+Customer status	    Dashboard 1	 Dashboard 2
+Retained customers	$61	   $46
+Churned customers	$74	   $64
+
+In both dashboards, the displayed average monthly charges are higher for churned customers.
+
+Business implication: Higher monthly charges may be associated with churn. Customers may be sensitive to price, dissatisfied with the value received, or attracted by competitors' offers. T
+
+Recommended action: Analyze churn by monthly-charge bands, contract type, and service type together. Review plan suitability, billing complaints, and competitor pricing before offering discounts.
+
+Insight 6: Payment method is a potential retention indicator
+The payment-method visuals show customer churn distributed across electronic checks, mailed checks, bank transfers, and credit cards.
+
+Electronic checks appear to be the largest displayed payment-method segment in both dashboards, with approximately 44K churned customers in Dashboard 1 and 29K in Dashboard 2.
+
+Business implication: Payment method may help identify customer segments for further investigation, but a larger churn count does not necessarily mean a higher churn rate. The total number of customers using each payment method must also be considered.
+
+Recommended action: Examine whether billing friction, failed payments, or payment preferences are associated with customer attrition.
+
+Insight 7: Revenue exposure makes retention commercially important
+Dashboard 1 reports $19.86M in churn MRR loss, while Dashboard 2 reports $7.12M.
+
+These figures indicate substantial reported recurring-revenue exposure within the respective dashboard populations.
+
+Business implication: Even a modest improvement in retention could be commercially valuable if it prevents customers from leaving and the associated recurring contribution is preserved.
+
+Recommended action: Prioritize retention opportunities by combining churn risk, customer revenue, expected retention success, and campaign cost. 
+
+
+
+
+
+2. Important dashboard observations for management:
+
+The following points summarize the main conclusions and the actions they suggest.
+Priority	Dashboard observation					Recommended business action
+High	Churn rates are 27% and 55% in the two reports			Confirm population and period; establish the correct baseline
+High	Month-to-month contracts account for the largest churn volume	Develop targeted contract and loyalty offers
+High	Churn rates are highest among shorter-tenure customers		Strengthen onboarding and early-life customer support
+High	Reported churn MRR losses are substantial			Prioritize retention using expected financial value
+Medium	Fiber-optic service has the largest displayed churn count	Investigate service quality and Customer Satisfaction Score.
+Medium	Churned customers have higher average monthly charges		Investigate price sensitivity and plan suitability
+Medium	Payment-method Electronic Check has higher churn Volume		Examine whether billing friction, failed payments, or payment preferences are associated with customer attrition.
+
